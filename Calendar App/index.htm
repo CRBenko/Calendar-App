@@ -1,0 +1,151 @@
+<!--
+  -- Student Name: Curtis Benko
+  -- Student ID: 41104274
+  -- Course: CST8209 - Web Programming I
+  -- Semester: 23W
+  -- Assignment: 4
+  -- Date Submitted: APRIL 2023 
+-->
+
+<html>
+  <head>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <!-- Link to calendar.css -->
+    <link rel="stylesheet" href="assets/calendar.css" />
+    <!-- JQuery Validate -->
+    <script src="assets/jquery-3.6.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+  </head>
+  <body>
+    <div id="calendar"></div>
+    <!-- Large modal -->
+    <div class="modal-box">
+      <button
+        type="button"
+        class="modal-button"
+        data-toggle="modal"
+        data-target=".bd-example-modal-lg"
+      >
+        Submit Your Own Event!
+      </button>
+      <div
+        class="modal fade bd-example-modal-lg"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="myLargeModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <h1>Event Submission</h1>
+            <!-- EVENT SUBMISSION FORM -->
+            <div class="contact-container">
+              <div class="contact-form">
+                <p><storng>Progress:</storng></p>
+                <div id="progress-inputs" class="progress">
+                  <div
+                    class="progress-bar bg-success"
+                    role="progressbar"
+                    aria-valuenow="0"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="width: 0%"
+                  >
+                    <span class="sr-only">0%</span>
+                  </div>
+                </div>
+                <form class="form" id="input-progress" role="form" action="#">
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="eventdate"
+                        >Event Date <span>(Required)</span></label
+                      >
+                    </div>
+                    <div class="col-75">
+                      <input
+                        type="fill-in-text"
+                        id="eventdate"
+                        name="eventdate"
+                        placeholder="mm/dd/yyyy"
+                      />
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="eventtitle"
+                        >Event Title <span>(Required)</span></label
+                      >
+                    </div>
+                    <div class="col-75">
+                      <input
+                        type="fill-in-text"
+                        id="eventtitle"
+                        name="eventtitle"
+                        placeholder="Title of Event.."
+                      />
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="eventdescription"
+                        >Event Description <span>(Optional)</span></label
+                      >
+                    </div>
+                    <div class="col-75">
+                      <textarea
+                        id="eventdescription"
+                        name="eventdescription"
+                        placeholder="Write something.."
+                      ></textarea>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-25"></div>
+                    <div class="col-75">
+                      <button
+                        class="submit-btn"
+                        id="submit"
+                        type="submit"
+                        value="submit"
+                      >
+                        Submit
+                      </button>
+                      <button
+                        class="clear-btn"
+                        id="clear"
+                        type="clear"
+                        value="clear"
+                      >
+                        Clear
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <!-- EVENT SUBMISSION FORM -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="assets/calendar.js"></script>
+  <!-- Popper.js and Bootstrap.js -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"
+  ></script>
+</html>

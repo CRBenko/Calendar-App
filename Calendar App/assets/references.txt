@@ -1,0 +1,32 @@
+References
+-------------------
+
+W3Schools. (2023). JavaScript - HTML DOM Methods. Retrieved on February, 2023 from https://www.w3schools.com/js/js_htmldom_methods.asp
+
+MDN Web Docs. (2023). EventTarget.addEventListener(). Retrieved on February, 2023 from https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+
+Web Dev Simplified. (2021). Learn DOM Manipulation In 18 Minutes. YouTube. Retrieved on February, 2023 from https://www.youtube.com/watch?v=y17RuWkWdn8
+
+Diogo Capela. (December 2, 2019). How do I get the day of the month in javascript?. Stack Overflow. Retrieved on March 1, 2023 from https://stackoverflow.com/questions/12845096/how-do-i-get-the-day-of-the-month-in-javascript#:~:text=prototype.,date%20according%20to%20local%20time. 
+
+APA Style. (August 2020). How do you cite email communications from individuals?. Retrieved on March 1, 2023 from https://apastyle.apa.org/learn/faqs/cite-individual-email
+
+Angela Morrison. (personal communication, February 28, 2023).
+
+.Validate. (2023). jQuery Validation Plugin. Retrieved March 24 2023 from https://jqueryvalidation.org/
+
+Elian Ebbing. (May 30, 2011). How to validate date with format "mm/dd/yyyy" in JavaScript?. Stack Overflow. Retrieved on March 24, 2023 from https://stackoverflow.com/questions/6177975/how-to-validate-date-with-format-mm-dd-yyyy-in-javascript
+
+Dev A.T Viet Nam. (September 28, 2022). Calendar Clock App with HTML CSS & JavaScript. YouTube. Retrieved on April 8, 2023 from https://www.youtube.com/watch?v=VrFMjLJwXAw
+
+Mazharul Islam. (Accessed 2023). Bootstrap Progress Bar with form. CodePen. Retrieved on April 9, 2023 from https://codepen.io/swopnil/pen/XKeyJM
+
+BootStrap. (2023). Modal. BootStrap. Retrieved on April 9, 2023 from https://getbootstrap.com/docs/4.0/components/modal/
+
+BootStrap. (2023). Tooltips. BootStrap. Retrieved on April 9, 2023 from https://getbootstrap.com/docs/4.0/components/tooltips/
+
+W3Schools. (2023). Bootstrap 4 Tooltip. W3Schools. Retrieved on April 9, 2023 from https://www.w3schools.com/bootstrap4/bootstrap_tooltip.asp#:~:text=How%20To%20Create%20a%20Tooltip,tooltip%22%20attribute%20to%20an%20element.&text=Note%3A%20Tooltips%20must%20be%20initialized,call%20the%20tooltip()%20method.
+
+Praveen Kumar Purushothaman. (July 14, 2013). Change Bootstrap tooltip color. StackOverflow. Retrieved on April 9, 2023 from https://stackoverflow.com/questions/17642447/change-bootstrap-tooltip-color
+
+Misc. (2021). Bootstrap Tooltip - Hide on click Issue - Solved!. WEBDEVPUNEETBlog. Retrieved on April 9, 2023 from https://webdevpuneet.com/bootstrap-tooltip-hide-on-click-issue-solved/#gsc.tab=0
